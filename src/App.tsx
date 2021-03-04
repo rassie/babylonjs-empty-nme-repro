@@ -63,8 +63,8 @@ combineLatest(scene$, canvas$).subscribe(([scene, canvas]) => {
   light.intensity = 0.7;
 
   // CHANGEME
-  const N = MyNodeMaterial;
-  // const N = NodeMaterial;
+  // const N = MyNodeMaterial;
+  const N = NodeMaterial;
 
   const nodeMaterial = new N("node material", scene, {
     emitComments: true
